@@ -1,0 +1,115 @@
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  text-decoration:none;
+  }
+  body {
+  background-color:#464e55;
+  background-image:url('http://hipersocial.wappy.lt/files/936298/iconos-saluspot(1).png');
+  }
+  .container {
+  overflow:hidden;
+  margin:0px auto;
+  max-width:900px;
+  }
+  header {
+  background:#2c3e50;
+  color:#fff;
+  padding:35px 10px;
+  box-shodow:0px 0px 4px 2px #000;
+  overflow:hidden;
+  padding-left: 30px;
+  border-top:5px solid #c0392b;
+  background-image:url('https://media000.flaticon.com/flaticon/img/pattern-search.png');
+  }
+  .logotipo {
+  float:left;
+  font-family: 'sigmar one';
+  }
+  nav {
+ float:right;
+  }
+  .box-slidebar {
+  background:orange;
+  float:right;
+  width:250px;
+  height:100%;
+  padding:15px;
+  color:#fff;
+  margin-top:2px;
+  }
+  .box-slidebar h3 {
+  font-size:35px;
+  text-align:center;
+  }
+  .box-section {
+  background:#fff;
+  width:647px;
+  height:100%;
+  color:#000;
+  padding:10px 15px;
+  margin-right:3px;
+  margin-top:2px;
+  border-radius:5px;
+  }
+  .box-section h3 {
+  font-size:35px;
+  }
+  header nav ul {
+  list-style:none;
+  text-decoration:none;
+  }
+  header nav ul li {
+  float:left;
+  }
+  header nav ul li a {
+  background:#c0392b;
+  padding:15px;
+  display:block;
+  color:#fff;
+  border-left:1px solid #86271e;
+  }
+header nav a:hover {
+	background:#e74c3c;
+}
+.campo {
+  border:1px solid #b7b7b7;
+  color:#333;
+  padding:6px;
+  border-radius:3px;
+  width:80%;
+  margin:2px;
+}
+.boton {
+  background:#1995d5;
+  color:#fff;
+  border:1px solid steelblue;
+  text-align:center;
+  padding:6px;
+  border-radius:2px;
+  box-shadow:0px 0px 2px 1px rgba(0,0,0,.3);
+  -moz-box-shadow:0px 0px 2px 1px rgba(0,0,0,.3);
+  -webkit-box-shadow:0px 0px 2px 1px rgba(0,0,0,.3);
+  }
+.error {
+  display:none;
+  padding:7px;
+  color:#fff;
+  background:red;
+  border-radius:2px;
+  box-shadow:0px 0px 2px 1px rgba(0,0,0,.3);
+  -moz-box-shadow:0px 0px 2px 1px rgba(0,0,0,.3);
+  -webkit-box-shadow:0px 0px 2px 1px rgba(0,0,0,.3);
+  text-align:center;
+}
+form {
+  text-align:center;
+}
+.m-d {
+overflow:hidden;
+background:#c0392b;
+border-radius:5px;
+}
